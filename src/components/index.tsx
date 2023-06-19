@@ -1,5 +1,8 @@
+import MenuButton from './MenuButton';
 import Text from './Text';
 
-
-export { Text };
+export { 
+	MenuButton, 
+	Text 
+};
 

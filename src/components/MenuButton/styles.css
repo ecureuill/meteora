@@ -1,0 +1,51 @@
+.MenuButton {
+	width: 18px;
+	height: 13px;
+	border: 0;
+	
+	background-color: transparent;
+}
+
+.MenuButton-open{
+	display: block;
+
+	border-bottom: 2px solid var(--color-secondary);
+	border-top: 2px solid var(--color-secondary);
+	
+}
+
+.MenuButton-open::after {
+	content: '';
+	
+	width: 100%;
+	height: 0px;
+	
+	display: block;
+	
+	border: 0;
+	border-bottom: 2px solid var(--color-secondary);
+}
+.MenuButton-close {
+	position: relative;
+}
+
+.MenuButton-close::after, 
+.MenuButton-close::before {
+	content: '';
+	
+	width: 100%;
+	height: 2px;
+	
+	position: absolute;
+	display: block;
+
+	background-color: var(--color-secondary);
+}
+
+.MenuButton-close::after {
+	transform: rotate(45deg);
+}
+
+.MenuButton-close::before {
+	transform: rotate(-45deg);
+}

@@ -1,5 +1,11 @@
+import './styles/settings/settings.css';
+import './styles/generics/normalize.css';
+import './styles/elements/base.css';
+import './styles/utilities/utils.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { MenuButton } from './components';
 
 if (process.env['NODE_ENV'] !== 'production') {
 	// eslint-disable-next-line @typescript-eslint/no-var-requires
@@ -14,5 +20,8 @@ const root = ReactDOM.createRoot(
 
 root.render(
 	<React.StrictMode>
+		<main>
+			<MenuButton open={true}/>
+		</main>
 	</React.StrictMode>
 );
