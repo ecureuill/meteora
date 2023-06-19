@@ -1,3 +1,4 @@
+import Banner from './Banner';
 import Button from './Button';
 import Header from './Header';
 import Input from './Input';
@@ -7,6 +8,7 @@ import SearchBar from './SearchBar';
 import Text from './Text';
 
 export {
+	Banner,
 	Button,
 	Input,
 	Header,
