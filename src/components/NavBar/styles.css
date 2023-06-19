@@ -1,24 +1,44 @@
+.NavBar {
+	width: 100%;
+}
 .NavBar--col {
 	width: fit-content;
 	height: fit-content;	
 
+	position: absolute;
+	top: 0;
+	right: 0;
+
 	padding: var(--padding-fluid-hsmall);
 	background-color: var(--color-quinary);
-
 }
+
+
+.NavBar--row {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	gap: var(--gap-small)
+}
+
 .NavBar__action {
 	display: flex;
 	justify-content: end;
 }
 
 .NavBar__link {
-	width: 100%;
-	
 	display: block;
 	
 	color: var(--color-zero);
 
 	padding: var(--padding-tiny) 0;
+}
+
+.NavBar--row.NavBar__link {
+	width: 100%;
+}
+
+.NavBar--col .NavBar__link {
 	border-bottom: 1px solid var(--color-zero);
 }
 
