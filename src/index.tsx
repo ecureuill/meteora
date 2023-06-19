@@ -1,6 +1,6 @@
 import './styles/settings/settings.css';
 import './styles/generics/normalize.css';
-import './styles/elements/base.css';
+// import './styles/elements/base.css';
 import './styles/utilities/utils.css';
 
 import React from 'react';
