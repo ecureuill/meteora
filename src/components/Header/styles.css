@@ -1,0 +1,36 @@
+.Header {
+	width: 100%;
+	max-width: 100%;
+	height: fit-content;
+
+	color: var(--color-zero);
+	
+	background: var(--color-negative);
+	overflow: hidden;
+}
+
+.Header__menubar {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+
+	padding: var(--padding-medium);
+}
+
+.Header__menubar .NavBar {
+	flex-grow: 0;
+	flex-shrink: 1;
+}
+
+.Header__searchbar {
+	width: 100%;
+
+	flex-grow: 1;
+	flex-shrink: 0;
+
+	padding: var(--padding-medium);
+
+	background-color: var(--color-zero);
+}
