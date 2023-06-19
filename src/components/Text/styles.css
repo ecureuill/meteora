@@ -1,0 +1,36 @@
+.Text {
+	font: var(--font-normal);
+	font-family: var(--font-primary);
+}
+
+.Text--big {
+    font-size: var(--size-big);
+    line-height:  var(--line-big);
+    font-weight: 500;
+}
+
+.Text--large {
+    font-size: var(--size-large);
+    line-height:  var(--line-large);
+    font-weight: 400;
+}
+
+.Text--medium {
+    font-size: var(--size-medium);
+    line-height:  var(--line-medium);
+    font-weight: 400;
+}
+
+.Text--small {
+    font-size: var(--size-small);
+    line-height:  var(--line-small);
+    font-weight: 400;
+}
+
+.Text--bold {
+	font-weight: 500;
+}
+
+.Text--bolder {
+    font-weight: 700;
+}
