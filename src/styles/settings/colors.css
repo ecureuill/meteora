@@ -1,10 +1,12 @@
 :root {
 	--color-negative: #000000;
-	--color-zero: #cccccc;
+	--color-zero: #ffffff;
 	
 	--color-primary: #9353ff;
 	--color-secondary: #daff01;
 	--color-tertiary: #ee6471;
 	--color-quaternary: #f87f46;
 	--color-quinary: #343A40;
+	--color-senary: #cccccc;
+
 }

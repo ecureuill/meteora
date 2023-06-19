@@ -3,7 +3,11 @@
 	--spacing-small: 16px;
 	--spacing-medium: 30px;
 
-	--pading-tiny: 8px;
+	--padding-tiny: 8px;
+	--padding-small: 20px;
+	--padding-medium: 24px;
+	
 	--padding-fluid-hmedium: clamp(1.688rem, 12.778vw + -1.187rem, 10.313rem); /*27-165*/
 	--padding-fluid-hsmall: clamp(1.75rem, 3.426vw + 0.979rem, 4.063rem); /*28-65*/
+
 }
