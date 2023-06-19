@@ -1,0 +1,27 @@
+.NavBar--col {
+	width: fit-content;
+	height: fit-content;	
+
+	padding: var(--padding-fluid-hsmall);
+	background-color: var(--color-quinary);
+
+}
+.NavBar__action {
+	display: flex;
+	justify-content: end;
+}
+
+.NavBar__link {
+	width: 100%;
+	
+	display: block;
+	
+	color: var(--color-zero);
+
+	padding: var(--padding-tiny) 0;
+	border-bottom: 1px solid var(--color-zero);
+}
+
+.NavBar__link--current {
+	color: var(--color-secondary)
+}
