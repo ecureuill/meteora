@@ -1,0 +1,21 @@
+.Button {
+	width: fit-content;
+	height: 37px;
+
+	color: var(--color-zero);
+
+	padding: var(--padding-tiny);
+	border: 0;
+	background-color: var(--color-primary);
+}
+
+.Button .Text {
+	line-height: unset;
+}
+
+.Button--outlined {
+	border: 2px solid var(--color-negative);
+
+	color: var(--color-negative);
+	background-color: var(--color-white);
+}
