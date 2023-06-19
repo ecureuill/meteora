@@ -1,0 +1,8 @@
+:root{
+	--size-base: 1rem;
+	
+	--size-big: clamp(1.75rem, 0.37vw + 1.667rem, 2rem); /*28-32px*/
+	--size-large: clamp(1.25rem, 0.556vw + 1.125rem, 1.625rem); /*20-26*/
+	--size-medium: clamp(1rem, 0.37vw + 0.917rem, 1.25rem); /*16-20*/
+	--size-small:  clamp(0.813rem, 0.093vw + 0.792rem, 0.875rem); /*13-14*/
+}
