@@ -4,6 +4,7 @@ import Button from './Button';
 import Card from './Card';
 import CategoryCard from './CategoryCard';
 import CategorySection from './CategorySection';
+import Footer from './Footer';
 import Header from './Header';
 import Input from './Input';
 import InputWithButton from './InputWithButton';
@@ -23,6 +24,7 @@ export {
 	Card,
 	CategoryCard,
 	CategorySection,
+	Footer,
 	Input,
 	InputWithButton,
 	Header,

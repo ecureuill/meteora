@@ -1,0 +1,12 @@
+.Footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: var(--color-zero);
+	text-align: center;
+
+	padding: calc(2*var(--padding-tiny)) calc(8*var(--padding-tiny));
+
+	background-color: var(--color-negative);
+}
