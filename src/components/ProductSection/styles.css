@@ -1,0 +1,7 @@
+.ProductSection {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--gap-medium);
+
+	padding: var(--spacing-small);
+}

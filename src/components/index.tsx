@@ -8,6 +8,7 @@ import MenuButton from './MenuButton';
 import NavBar from './NavBar';
 import ProductCard from './ProductCard';
 import ProductDescription from './ProductDescription';
+import ProductSection from './ProductSection';
 import SearchBar from './SearchBar';
 import Section from './Section';
 import Text from './Text';
@@ -23,6 +24,7 @@ export {
 	NavBar,
 	ProductDescription,
 	ProductCard,
+	ProductSection,
 	SearchBar,
 	Section,
 	Text
