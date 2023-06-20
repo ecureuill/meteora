@@ -13,5 +13,12 @@
 
 	"sections.category.title": "Busque por categoria:",
 	"sections.hotdeals.title": "Produtos que estão bombando!",
-	"sections.benefits.title": "Conheça todas as nossas facilidades"
+	"sections.benefits.title": "Conheça todas as nossas facilidades",
+	
+	"benefits.pix.title": "PAGUE PELO PIX",
+	"benefits.pix.description": "Ganhe 5% OFF em pagamentos via PIX",
+	"benefits.replace.title": "TROCA GRÁTIS",
+	"benefits.replace.description": "Fique livre para trocar em até 30 dias.",
+	"benefits.sustentability.title": "SUSTENTABILIDADE",
+	"benefits.sustentability.description": "Moda responsável, que respeita o meio ambiente."
 }
