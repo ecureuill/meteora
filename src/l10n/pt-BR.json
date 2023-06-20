@@ -23,5 +23,8 @@
 	"benefits.replace.title": "TROCA GRÁTIS",
 	"benefits.replace.description": "Fique livre para trocar em até 30 dias.",
 	"benefits.sustentability.title": "SUSTENTABILIDADE",
-	"benefits.sustentability.description": "Moda responsável, que respeita o meio ambiente."
+	"benefits.sustentability.description": "Moda responsável, que respeita o meio ambiente.",
+
+	"footer.develope_by": "2023 © Desenvolvido por Alura |",
+	"footer.project": " Projeto fictício sem fins comerciais."
 }
