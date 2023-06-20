@@ -1,6 +1,3 @@
-.NavBar {
-	width: 100%;
-}
 .NavBar--col {
 	width: fit-content;
 	height: fit-content;	
@@ -12,7 +9,6 @@
 	padding: var(--padding-fluid-hsmall);
 	background-color: var(--color-quinary);
 }
-
 
 .NavBar--row {
 	display: flex;

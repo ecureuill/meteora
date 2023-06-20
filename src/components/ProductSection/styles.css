@@ -1,11 +1,12 @@
 .ProductSection {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	gap: var(--gap-medium);
 
 	padding: var(--spacing-small);
 }
 
 .ProductSection .Card {
-	width: 323px;
+	width: clamp(20.188rem, 2.5vw + 19.625rem, 21.875rem);
 }
