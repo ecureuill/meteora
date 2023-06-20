@@ -6,6 +6,7 @@ import CategoryCard from './CategoryCard';
 import CategorySection from './CategorySection';
 import Header from './Header';
 import Input from './Input';
+import InputWithButton from './InputWithButton';
 import MenuButton from './MenuButton';
 import NavBar from './NavBar';
 import ProductDescription from './ProductDescription';
@@ -22,6 +23,7 @@ export {
 	CategoryCard,
 	CategorySection,
 	Input,
+	InputWithButton,
 	Header,
 	MenuButton,
 	NavBar,

@@ -1,0 +1,14 @@
+.InputWithButton {
+	display: flex;
+	align-items: center;
+	min-width: 273px;
+}
+
+.InputWithButton--fill {
+	width: 100%;
+}
+
+.InputWithButton__button--zero {
+	color: var(--color-zero);
+	border-color: var(--color-zero);
+}
