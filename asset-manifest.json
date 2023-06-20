@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/meteora/static/css/main.59f48114.css",
+    "main.js": "/meteora/static/js/main.81570dbb.js",
+    "static/media/1.png": "/meteora/static/media/1.5bfde3c840edb3ea05b8.png",
+    "static/media/Bolsa.png": "/meteora/static/media/Bolsa.4a32efcbbe75018705a4.png",
+    "static/media/Calça.png": "/meteora/static/media/Calça.b3f7f3183bac9bc3b3fc.png",
+    "static/media/Camiseta.png": "/meteora/static/media/Camiseta.811719a0a38666cc7401.png",
+    "static/media/Tenis.png": "/meteora/static/media/Tenis.9ffec03281bb1d3e7e05.png",
+    "static/media/Jaqueta.png": "/meteora/static/media/Jaqueta.a8620713b81befeb0231.png",
+    "static/media/Óculos.png": "/meteora/static/media/Óculos.55a8e17a6d733aa5f343.png",
+    "static/media/pants.png": "/meteora/static/media/pants.4fe708cc1bad586fec82.png",
+    "static/media/tshirts.png": "/meteora/static/media/tshirts.96807b8f3b10e2913c58.png",
+    "static/media/jackets.png": "/meteora/static/media/jackets.871808fb834ec47a7ee1.png",
+    "static/media/bags.png": "/meteora/static/media/bags.6852d3a3e73e3b319ede.png",
+    "static/media/shoes.png": "/meteora/static/media/shoes.b6168a03a283841f7a7d.png",
+    "index.html": "/meteora/index.html",
+    "main.59f48114.css.map": "/meteora/static/css/main.59f48114.css.map",
+    "main.81570dbb.js.map": "/meteora/static/js/main.81570dbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59f48114.css",
+    "static/js/main.81570dbb.js"
+  ]
+}
