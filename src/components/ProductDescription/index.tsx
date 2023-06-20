@@ -1,5 +1,6 @@
 import { Button, Text } from '../.';
 import data from '../../l10n/pt-BR.json';
+import './styles.css';
 
 type ProductDescriptionProps = {
 	title: string, 
@@ -12,9 +13,11 @@ const ProductDescription = ( {title, description, price}: ProductDescriptionProp
 	return (
 		<>
 			<Text variant='title-2' size='medium' weight='bolder'>{title}</Text>
-			<Text variant='paragraph'>
-				{description}
-			</Text>
+			<div className='ProductDescription__content'>
+				<Text variant='paragraph'>
+					{description}
+				</Text>
+			</div>
 			<Text variant='paragraph' weight='bolder'><strong>{price}</strong></Text>
 			<Button>{data['controls.button.moredetails.label']}</Button>
 		</>
