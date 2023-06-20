@@ -4,7 +4,7 @@
 
 	color: var(--color-zero);
 
-	padding: var(--padding-tiny);
+	padding: var(--padding-tiny) var(--padding-small);
 	border: 0;
 	background-color: var(--color-primary);
 }
