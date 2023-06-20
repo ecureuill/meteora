@@ -57,7 +57,6 @@ const ProductSection = (): JSX.Element => {
 					<Card
 						key={prod.id}
 						img={prod.img}
-						direction='col'
 					>
 						<ProductDescription
 							title={prod.title}
