@@ -1,5 +1,5 @@
 import { fakerPT_BR } from '@faker-js/faker';
-import { ProductCard, ProductDescription, Section } from '../.';
+import { Card, ProductDescription, Section } from '../.';
 import data from '../../l10n/pt-BR.json';
 import './styles.css';
 
@@ -54,16 +54,17 @@ const ProductSection = (): JSX.Element => {
 		<Section title={data['sections.hotdeals.title']}>
 			<div className='ProductSection'>
 				{products.map(prod => 
-					<ProductCard
+					<Card
 						key={prod.id}
 						img={prod.img}
+						direction='col'
 					>
 						<ProductDescription
 							title={prod.title}
 							description={prod.description}
 							price={prod.price}
 						/>
-					</ProductCard>
+					</Card>
 
 				)}
 			</div>

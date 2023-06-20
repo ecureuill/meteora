@@ -1,12 +1,12 @@
 import Banner from './Banner';
 import Button from './Button';
+import Card from './Card';
 import CategoryCard from './CategoryCard';
 import CategorySection from './CategorySection';
 import Header from './Header';
 import Input from './Input';
 import MenuButton from './MenuButton';
 import NavBar from './NavBar';
-import ProductCard from './ProductCard';
 import ProductDescription from './ProductDescription';
 import ProductSection from './ProductSection';
 import SearchBar from './SearchBar';
@@ -16,6 +16,7 @@ import Text from './Text';
 export {
 	Banner,
 	Button,
+	Card,
 	CategoryCard,
 	CategorySection,
 	Input,
@@ -23,7 +24,6 @@ export {
 	MenuButton,
 	NavBar,
 	ProductDescription,
-	ProductCard,
 	ProductSection,
 	SearchBar,
 	Section,

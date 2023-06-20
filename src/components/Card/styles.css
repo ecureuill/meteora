@@ -1,13 +1,20 @@
-.ProductCard {
-	width: 323px;
+.Card {
 	border: 1px solid var(--color-senary)
 }
 
-.ProductCard_img {
+.Card--row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.Card__img {
 	width: 100%;
 }
 
-.ProductCard_caption {
+.Card__caption {
 	padding: calc(2*var(--padding-tiny));
 
 	display: flex;

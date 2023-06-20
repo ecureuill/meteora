@@ -5,3 +5,7 @@
 
 	padding: var(--spacing-small);
 }
+
+.ProductSection .Card {
+	width: 323px;
+}
