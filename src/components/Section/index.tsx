@@ -3,16 +3,19 @@ import {Text} from '../.';
 import './styles.css';
 
 type SectionProps = {
-	title: string, 
+	title?: string, 
 	className?: string,
 };
 
 const Section = ( {children, title, className}: PropsWithChildren<SectionProps>): JSX.Element => {
 	return (
 		<section className={`Section ${className? className : ''}`}>
-			<Text variant='title-2' size='big' align='center' className='Section__title'>
-				{title}
-			</Text>
+			{
+				title &&
+				<Text variant='title-2' size='big' align='center' className='Section__title'>
+					{title}
+				</Text>
+			}
 			{children}
 		</section>
 	);
