@@ -5,10 +5,11 @@ interface TextProps extends HTMLAttributes<HTMLElement> {
 	variant?: 'title-1' | 'title-2' | 'paragraph';
 	size?: 'small' | 'medium' | 'large' | 'big';
 	weight?: 'normal' | 'bold' | 'bolder'
+	align?: 'center' | 'left'
 }
 
-const Text = ( {variant, size, children, className, weight='normal', ...props}: React.PropsWithChildren<TextProps>): JSX.Element => {
-	const styles = `Text Text--${weight} ${className? className: ''}`;
+const Text = ( {variant, size, children, className, weight='normal', align='left',  ...props}: React.PropsWithChildren<TextProps>): JSX.Element => {
+	const styles = `Text Text--${weight} ${align} ${className? className: ''}`;
 
 	switch(variant){
 	case 'title-1':
