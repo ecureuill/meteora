@@ -9,6 +9,7 @@ import Input from './Input';
 import InputWithButton from './InputWithButton';
 import MenuButton from './MenuButton';
 import NavBar from './NavBar';
+import NewsLetterSection from './Newsletter';
 import ProductDescription from './ProductDescription';
 import ProductSection from './ProductSection';
 import SearchBar from './SearchBar';
@@ -27,6 +28,7 @@ export {
 	Header,
 	MenuButton,
 	NavBar,
+	NewsLetterSection,
 	ProductDescription,
 	ProductSection,
 	SearchBar,

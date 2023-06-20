@@ -1,0 +1,22 @@
+.NewsLetterSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.NewsLetterSection__content {
+	max-width: 729px;
+
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap-medium);
+	justify-content: center;
+	align-items: center;
+
+	padding: var(--spacing-medium);
+	border: 2px solid;
+}
+
+.NewsLetterSection .Input__field {
+	border-right: 0;
+}
