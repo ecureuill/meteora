@@ -19,3 +19,10 @@
 	color: var(--color-negative);
 	background-color: var(--color-white);
 }
+
+.Button--inverted-outlined {
+	border: 2px solid var(--color-negative);
+	color: var(--color-zero);
+	border-color: var(--color-zero);
+	background-color: var(--color-white);
+}

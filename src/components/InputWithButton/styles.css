@@ -7,8 +7,3 @@
 .InputWithButton--fill {
 	width: 100%;
 }
-
-.InputWithButton__button--zero {
-	color: var(--color-zero);
-	border-color: var(--color-zero);
-}
