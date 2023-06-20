@@ -5,6 +5,7 @@ import Input from './Input';
 import MenuButton from './MenuButton';
 import NavBar from './NavBar';
 import SearchBar from './SearchBar';
+import Section from './Section';
 import Text from './Text';
 
 export {
@@ -15,6 +16,7 @@ export {
 	MenuButton,
 	NavBar,
 	SearchBar,
+	Section,
 	Text
 };
 

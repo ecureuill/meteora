@@ -1,0 +1,7 @@
+.Section {
+	padding: var(--padding-medium);
+}
+
+.Section__title {
+	padding-bottom: var(--padding-medium);
+}
