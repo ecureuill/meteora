@@ -1,5 +1,16 @@
 {
 	"controls.button.menu.label": "menu",
 	"controls.button.menu.description.open": "abrir menu",
-	"controls.button.menu.description.close": "fechar menu"
+	"controls.button.menu.description.close": "fechar menu",
+
+	"categories.tshirts": "Camisetas",
+	"categories.bags": "Bolsas",
+	"categories.shoes": "Calçados",
+	"categories.pants": "Calças",
+	"categories.jackets": "Casacos",
+	"categories.glasses": "Óculos",
+
+	"sections.category.title": "Busque por categoria:",
+	"sections.hotdeals.title": "Produtos que estão bombando!",
+	"sections.benefits.title": "Conheça todas as nossas facilidades"
 }
