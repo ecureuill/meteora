@@ -1,4 +1,5 @@
 import Banner from './Banner';
+import BenefitSection from './BenefitSection';
 import Button from './Button';
 import Card from './Card';
 import CategoryCard from './CategoryCard';
@@ -15,6 +16,7 @@ import Text from './Text';
 
 export {
 	Banner,
+	BenefitSection,
 	Button,
 	Card,
 	CategoryCard,

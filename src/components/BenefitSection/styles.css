@@ -1,0 +1,26 @@
+.BenefitSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	color: var(--color-zero);
+
+	background-color: var(--color-negative);
+}
+
+.BenefitSection .Card {
+	border: 0;
+}
+
+.BenefitSection .Card__img {
+	width: clamp(3.5rem, 1.481vw + 3.167rem, 4.5rem);
+	height: clamp(3.5rem, 1.481vw + 3.167rem, 4.5rem);
+}
+
+.BenefitSection__title {
+	color: var(--color-secondary)
+}
+
+.BenefitSection__description {
+	width: 200px;
+}
