@@ -12,7 +12,7 @@ const ProductDescription = ( {title, description, price}: ProductDescriptionProp
 
 	return (
 		<>
-			<Text variant='title-2' size='medium' weight='bolder'>{title}</Text>
+			<Text variant='title-3' size='medium' weight='bolder'>{title}</Text>
 			<div className='ProductDescription__content'>
 				<Text variant='paragraph'>
 					{description}

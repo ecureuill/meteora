@@ -2,7 +2,7 @@ import { HTMLAttributes } from 'react';
 import './styles.css';
 
 interface TextProps extends HTMLAttributes<HTMLElement> {
-	variant?: 'title-1' | 'title-2' | 'paragraph';
+	variant?: 'title-1' | 'title-2' | 'title-3' | 'paragraph';
 	size?: 'small' | 'medium' | 'large' | 'big';
 	weight?: 'normal' | 'bold' | 'bolder'
 	align?: 'center' | 'left'
@@ -23,6 +23,12 @@ const Text = ( {variant, size, children, className, weight='normal', align='left
 			<h2 className={`${styles} Text--heading Text--${size === undefined? 'large': size}`} {...props}>
 				{children}
 			</h2>
+		);
+	case 'title-3':
+		return (
+			<h3 className={`${styles} Text--heading Text--${size === undefined? 'large': size}`} {...props}>
+				{children}
+			</h3>
 		);
 
 	case 'paragraph':

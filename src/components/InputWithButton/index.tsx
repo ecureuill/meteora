@@ -12,7 +12,7 @@ type InputWithButtonProps = {
 const InputWithButton = ({label, outlined, inputProps}: InputWithButtonProps): JSX.Element => {
 	return (		
 		<div className='InputWithButton'>
-			<Input label='Pesquisar' {...inputProps}/>
+			<Input label={label} {...inputProps}/>
 			<Button className='InputWithButton__button' 
 				outlined={outlined}
 			>{label}</Button>

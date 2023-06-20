@@ -6,6 +6,7 @@ export default function Root() {
 		<>
 			<Header />
 			<main>
+				<h1 className='visuallyhidden'>Meteora</h1>
 				<Outlet />
 			</main>
 			<Footer/>
