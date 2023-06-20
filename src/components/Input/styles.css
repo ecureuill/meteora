@@ -16,6 +16,10 @@
 	padding: var(--padding-tiny);
 }
 
+.Input__field::placeholder {
+	color: var(--color-senary);
+}
+
 .Input__errortext {
 	
 }
