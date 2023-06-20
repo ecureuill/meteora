@@ -1,0 +1,27 @@
+.CategoryCard {
+	width: 209px;
+	min-height: 157px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.CategoryCard--narrow {
+	width: 146px;
+	min-height: 192px;
+}
+
+.CategoryCard__img {
+	width: 100%;
+	height: 157px;
+}
+
+.CategoryCard__caption {
+	height: 35px;
+
+	line-height: 35px;
+	vertical-align: middle;
+	color: var(--color-zero);
+
+	background-color: var(--color-negative);
+}
