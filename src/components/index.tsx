@@ -6,6 +6,7 @@ import Header from './Header';
 import Input from './Input';
 import MenuButton from './MenuButton';
 import NavBar from './NavBar';
+import ProductDescription from './ProductDescription';
 import SearchBar from './SearchBar';
 import Section from './Section';
 import Text from './Text';
@@ -19,6 +20,7 @@ export {
 	Header,
 	MenuButton,
 	NavBar,
+	ProductDescription,
 	SearchBar,
 	Section,
 	Text
