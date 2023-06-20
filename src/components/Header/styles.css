@@ -20,7 +20,9 @@
 }
 
 .Header__menubar .NavBar {
-	flex-grow: 0;
+	width: 100%;
+	
+	flex-grow: 1;
 	flex-shrink: 1;
 }
 
