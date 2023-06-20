@@ -3,6 +3,9 @@
 	"controls.button.menu.description.open": "abrir menu",
 	"controls.button.menu.description.close": "fechar menu",
 	"controls.button.moredetails.label": "Ver mais",
+	"controls.button.search.label": "Pesquisar",
+
+	"controls.input.search.placeholder": "Digite o produto",
 
 	"categories.tshirts": "Camisetas",
 	"categories.bags": "Bolsas",
