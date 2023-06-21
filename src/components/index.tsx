@@ -10,6 +10,7 @@ import Header from './Header';
 import Input from './Input';
 import InputWithButton from './InputWithButton';
 import MenuButton from './MenuButton';
+import Modal from './Modal';
 import NavBar from './NavBar';
 import NewsLetterSection from './Newsletter';
 import ProductDescription from './ProductDescription';
@@ -32,6 +33,7 @@ export {
 	InputWithButton,
 	Header,
 	MenuButton,
+	Modal,
 	NavBar,
 	NewsLetterSection,
 	ProductDescription,
