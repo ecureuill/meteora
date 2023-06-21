@@ -14,6 +14,7 @@ import NavBar from './NavBar';
 import NewsLetterSection from './Newsletter';
 import ProductDescription from './ProductDescription';
 import ProductSection from './ProductSection';
+import Radio from './Radio';
 import SearchBar from './SearchBar';
 import Section from './Section';
 import Text from './Text';
@@ -35,6 +36,7 @@ export {
 	NewsLetterSection,
 	ProductDescription,
 	ProductSection,
+	Radio,
 	SearchBar,
 	Section,
 	Text

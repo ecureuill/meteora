@@ -1,0 +1,19 @@
+.Radio {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: var(--gap-tiny);
+}
+
+.Radio__field {	
+	appearance: none;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	border: 1px solid var(--color-senary);
+}
+
+.Radio__field:checked {	
+	border: 3px solid var(--color-primary);
+}
