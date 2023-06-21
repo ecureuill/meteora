@@ -13,7 +13,7 @@ const InputWithButton = ({label, outlined, inputProps}: InputWithButtonProps): J
 	return (		
 		<div className='InputWithButton'>
 			<Input label={label} {...inputProps}/>
-			<Button className='InputWithButton__button' 
+			<Button type='submit' className='InputWithButton__button' 
 				outlined={outlined}
 			>{label}</Button>
 		</div>
