@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons');
 
 :root {
   --font-primary: 'Inter',  sans-serif;
+  --font-icon: 'Material Icons';
 }
