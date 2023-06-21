@@ -1,0 +1,30 @@
+.CloseButton {
+	width: 30px;
+	height: 30px;
+	border: 0;
+	
+	position: relative;
+
+	background-color: transparent;
+}
+
+.CloseButton::after, 
+.CloseButton::before {
+	content: '';
+	
+	width: 100%;
+	height: 2px;
+	
+	position: absolute;
+	display: block;
+
+	background-color: var(--color-senary);
+}
+
+.CloseButton::after {
+	transform: rotate(45deg);
+}
+
+.CloseButton::before {
+	transform: rotate(-45deg);
+}
