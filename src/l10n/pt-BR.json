@@ -4,8 +4,15 @@
 	"controls.button.menu.description.close": "fechar menu",
 	"controls.button.moredetails.label": "Ver mais",
 	"controls.button.search.label": "Pesquisar",
+	"controls.button.product-details.label": "Adicionar à sacola",
 
 	"controls.input.search.placeholder": "Digite o produto",
+
+	"controls.modal.button.close": "Fechar modal",
+	"controls.modal.products.title": "Confira detalhes sobre o produto",
+
+	"feedback.email_registered.title": "E-mail cadastrado com sucesso!",
+	"feedback.email_registered.message": "Em breve você receberá novidades exclusivas da Meteora.",
 
 	"categories.tshirts": "Camisetas",
 	"categories.bags": "Bolsas",
@@ -25,6 +32,11 @@
 	"benefits.sustentability.title": "SUSTENTABILIDADE",
 	"benefits.sustentability.description": "Moda responsável, que respeita o meio ambiente.",
 
+	"product-details.selledby": "Vendido e entregue por",
+	"product-details.colors": "Cores",
+	"product-details.sizes": "Tamanho",
+
 	"footer.develope_by": "2023 © Desenvolvido por Alura |",
 	"footer.project": " Projeto fictício sem fins comerciais."
+
 }
