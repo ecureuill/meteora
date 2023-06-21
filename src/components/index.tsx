@@ -14,6 +14,7 @@ import Modal from './Modal';
 import NavBar from './NavBar';
 import NewsLetterSection from './Newsletter';
 import ProductDescription from './ProductDescription';
+import ProductDetails from './ProductDetails';
 import ProductSection from './ProductSection';
 import Radio from './Radio';
 import SearchBar from './SearchBar';
@@ -37,6 +38,7 @@ export {
 	NavBar,
 	NewsLetterSection,
 	ProductDescription,
+	ProductDetails,
 	ProductSection,
 	Radio,
 	SearchBar,
