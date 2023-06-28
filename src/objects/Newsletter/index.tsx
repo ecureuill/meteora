@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { InputWithButton, Section, Text } from '../.';
+import { InputWithButton, Modal, Section, Text } from '../../components';
 import data from '../../l10n/pt-BR.json';
-import Modal from '../Modal';
 import './styles.css';
 
 const NewsLetterSection = (): JSX.Element => {

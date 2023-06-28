@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { CategoryCard, Section } from '../.';
+import { CategoryCard, Section } from '../../components';
 import data from '../../l10n/pt-BR.json';
 import './styles.css';
 

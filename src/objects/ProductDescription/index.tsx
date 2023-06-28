@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Button, Modal, ProductDetails, Text } from '../.';
+import { ProductDetails } from '../.';
+import { Button, Modal, Text } from '../../components';
 import data from '../../l10n/pt-BR.json';
 import { products } from '../../services/products';
 import './styles.css';

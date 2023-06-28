@@ -1,4 +1,5 @@
-import { Card, ProductDescription, Section } from '../.';
+import { ProductDescription } from '../.';
+import { Card, Section } from '../../components';
 import data from '../../l10n/pt-BR.json';
 import { products } from '../../services/products';
 import './styles.css';

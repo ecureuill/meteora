@@ -1,8 +1,6 @@
-import Card from '../Card';
-import Section from '../Section';
-import Text from '../Text';
 import './styles.css';
 import data from '../../l10n/pt-BR.json';
+import { Card, Section, Text } from '../../components';
 
 const BenefitSection = (): JSX.Element => {
 	return (

@@ -1,4 +1,5 @@
-import { Banner, BenefitSection, CategorySection, NewsLetterSection, ProductSection } from '../../components';
+import { Banner } from '../../components';
+import { BenefitSection, CategorySection, NewsLetterSection, ProductSection } from '../../objects';
 
 const HomePage = (): JSX.Element => {
 	return (
