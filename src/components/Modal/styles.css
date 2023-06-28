@@ -1,6 +1,8 @@
 .Modal {
 	width: 100%;
+	max-width: 900px;
 	height: fit-content;
+	margin: auto;
 }
 
 .Modal::backdrop {
