@@ -1,7 +1,7 @@
 import { Dispatch, SetStateAction } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { MenuButton, Text } from '../.';
-import TabletOrBellow from '../MediaQuery/TabletOrAbove';
+import TabletOrBellow from '../MediaQuery/TabletOrBellow';
 import './styles.css';
 
 type NavBarProps = {

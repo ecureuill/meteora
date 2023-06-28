@@ -2,7 +2,7 @@ import Logo from '../../assets/logo.png';
 import { MenuButton, NavBar, SearchBar } from '../.';
 import './styles.css';
 import DesktopOrAbove from '../MediaQuery/DesktopOrAbove';
-import TabletOrBellow from '../MediaQuery/TabletOrAbove';
+import TabletOrBellow from '../MediaQuery/TabletOrBellow';
 import { useState } from 'react';
 
 const Header = (): JSX.Element => {
