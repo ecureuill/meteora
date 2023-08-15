@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/meteora/static/css/main.5298cde8.css",
-    "main.js": "/meteora/static/js/main.51b8a21f.js",
+    "main.css": "/meteora/static/css/main.f5acdfaa.css",
+    "main.js": "/meteora/static/js/main.b23a04bc.js",
     "static/media/1.png": "/meteora/static/media/1.5bfde3c840edb3ea05b8.png",
+    "static/media/3.png": "/meteora/static/media/3.5f6537205ef9252484ae.png",
+    "static/media/2.png": "/meteora/static/media/2.8bb936e016f889e744b5.png",
     "static/media/Bolsa.png": "/meteora/static/media/Bolsa.4a32efcbbe75018705a4.png",
     "static/media/Calça.png": "/meteora/static/media/Calça.b3f7f3183bac9bc3b3fc.png",
     "static/media/Camiseta.png": "/meteora/static/media/Camiseta.811719a0a38666cc7401.png",
@@ -15,11 +17,11 @@
     "static/media/bags.png": "/meteora/static/media/bags.6852d3a3e73e3b319ede.png",
     "static/media/shoes.png": "/meteora/static/media/shoes.b6168a03a283841f7a7d.png",
     "index.html": "/meteora/index.html",
-    "main.5298cde8.css.map": "/meteora/static/css/main.5298cde8.css.map",
-    "main.51b8a21f.js.map": "/meteora/static/js/main.51b8a21f.js.map"
+    "main.f5acdfaa.css.map": "/meteora/static/css/main.f5acdfaa.css.map",
+    "main.b23a04bc.js.map": "/meteora/static/js/main.b23a04bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.5298cde8.css",
-    "static/js/main.51b8a21f.js"
+    "static/css/main.f5acdfaa.css",
+    "static/js/main.b23a04bc.js"
   ]
 }
