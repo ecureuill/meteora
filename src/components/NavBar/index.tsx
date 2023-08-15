@@ -18,15 +18,15 @@ const NavBar = ({direction = 'row', open, setOpen}: NavBarProps) => {
 			label: 'Home'
 		},
 		{
-			to: '/lojas',
+			to: '/#lojas',
 			label: 'Nossas lojas'
 		},
 		{
-			to: '/news',
+			to: '/#news',
 			label: 'Novidades'
 		},
 		{
-			to: '/promos',
+			to: '/#promos',
 			label: 'Promoções'
 		}
 	];
