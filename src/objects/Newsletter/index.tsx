@@ -16,10 +16,8 @@ const NewsLetterSection = (): JSX.Element => {
 					<InputWithButton
 						label='Enviar'
 						outlined='none'
-						inputProps={{
-							type:'email',
-							placeholder:'Digite seu email'
-						}}	 
+						type='email'
+						placeholder='Digite seu email'
 					/>
 				</form>
 				<Modal title={data['feedback.email_registered.title']} open={openModal} setOpen={setOpenModal}>
