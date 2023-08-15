@@ -11,7 +11,6 @@ import MenuButton from './MenuButton';
 import Modal from './Modal';
 import NavBar from './NavBar';
 import Radio from './Radio';
-import SearchBar from './SearchBar';
 import Section from './Section';
 import Text from './Text';
 
@@ -29,7 +28,6 @@ export {
 	Modal,
 	NavBar,
 	Radio,
-	SearchBar,
 	Section,
 	Text
 };

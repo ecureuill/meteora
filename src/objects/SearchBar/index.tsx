@@ -1,5 +1,5 @@
+import { InputWithButton } from '../../components';
 import data from '../../l10n/pt-BR.json';
-import InputWithButton from '../InputWithButton';
 import './styles.css';
 
 type SearchBarProps = {

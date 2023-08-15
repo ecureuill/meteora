@@ -4,6 +4,7 @@ import NewsLetterSection from './Newsletter';
 import ProductDescription from './ProductDescription';
 import ProductDetails from './ProductDetails';
 import ProductSection from './ProductSection';
+import SearchBar from './SearchBar';
 
 export {
 	BenefitSection,
@@ -11,5 +12,6 @@ export {
 	NewsLetterSection,
 	ProductDescription,
 	ProductDetails,
-	ProductSection
+	ProductSection,
+	SearchBar
 };

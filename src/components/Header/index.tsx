@@ -1,9 +1,10 @@
+import { useState } from 'react';
+import { MenuButton, NavBar } from '../.';
 import Logo from '../../assets/logo.png';
-import { MenuButton, NavBar, SearchBar } from '../.';
-import './styles.css';
+import { SearchBar } from '../../objects';
 import DesktopOrAbove from '../MediaQuery/DesktopOrAbove';
 import TabletOrBellow from '../MediaQuery/TabletOrBellow';
-import { useState } from 'react';
+import './styles.css';
 
 const Header = (): JSX.Element => {
 
