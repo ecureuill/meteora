@@ -7,6 +7,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
 import { router } from './routers';
+import { ProductProvider } from './contexts/product.context';
 
 if (process.env['NODE_ENV'] !== 'production') {
 	// eslint-disable-next-line @typescript-eslint/no-var-requires
@@ -21,6 +22,8 @@ const root = ReactDOM.createRoot(
 
 root.render(
 	<React.StrictMode>
-		<RouterProvider router={router} />
+		<ProductProvider>
+			<RouterProvider router={router} />
+		</ProductProvider>
 	</React.StrictMode>
 );

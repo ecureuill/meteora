@@ -1,10 +1,13 @@
+import { useContext } from 'react';
 import { ProductDescription } from '../.';
 import { Card, Section } from '../../components';
 import data from '../../l10n/pt-BR.json';
-import { products } from '../../services/products';
 import './styles.css';
+import { productContext } from '../../contexts/product.context';
 
 const ProductSection = (): JSX.Element => {
+
+	const {products} = useContext(productContext);
 
 	return (
 		<Section title={data['sections.hotdeals.title']}>
