@@ -1,0 +1,45 @@
+.Carrossel {
+    position: relative;
+    width: 100%;
+    height: 415px;
+}
+
+.Carrossel__controls__autoplay {
+    position:absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.Carrossel__controls__autoplay button {
+    border: 0;
+    background-color: transparent;
+    color: var(--color-zero);
+}
+
+.Carrossel__controls__left button, .Carrossel__controls__right button {
+    border: 0;
+    background-color: transparent;
+    font-size: 45px;
+    color: var(--color-zero);
+}
+
+.Carrossel__controls__left{
+    position:absolute;
+    top: 50%;
+    left: 10px;
+}
+
+.Carrossel__controls__right {
+    position:absolute;
+    top: 50%;
+    right: 10px;
+}
+
+.Carrossel__img {
+    width: 100%;
+	height: 100%;
+}
+
+.Carrossel__img--hide {
+    display: none;
+}

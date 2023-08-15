@@ -1,4 +1,3 @@
-import Banner from './Banner';
 import Button from './Button';
 import Card from './Card';
 import CategoryCard from './CategoryCard';
@@ -15,7 +14,6 @@ import Section from './Section';
 import Text from './Text';
 
 export {
-	Banner,
 	Button,
 	Card,
 	CategoryCard,
