@@ -1,12 +1,14 @@
-import { ComponentPropsWithoutRef, PropsWithChildren, useEffect, useRef } from 'react';
+import { ComponentPropsWithoutRef, Dispatch, PropsWithChildren, SetStateAction, useEffect, useRef } from 'react';
 import { CloseButton, Text } from '../.';
 import './styles.css';
 
 interface ModalProps extends ComponentPropsWithoutRef<'dialog'> {
-	title: string
+	title: string,
+	setOpen: Dispatch<SetStateAction<boolean>>
+
 }
 
-const Modal = ( { children, title, open, 'aria-label': ariaLabel, 'aria-describedby': ariaDescribedBy, className, ...props }: PropsWithChildren<ModalProps>): JSX.Element => {
+const Modal = ( { children, title, open, 'aria-label': ariaLabel, 'aria-describedby': ariaDescribedBy, className, setOpen, ...props }: PropsWithChildren<ModalProps>): JSX.Element => {
 	const dialogRef = useRef(null);
 
 	useEffect(() => {
@@ -32,7 +34,7 @@ const Modal = ( { children, title, open, 'aria-label': ariaLabel, 'aria-describe
 					</span>
 					<Text size='large' className='Modal__header__title'>{title}</Text>
 				</div>
-				<CloseButton setOpen={() => console.debug('')}/>
+				<CloseButton setOpen={setOpen}/>
 			</div>
 			<div className='Modal__content'>
 				{children}

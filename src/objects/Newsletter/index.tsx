@@ -22,7 +22,7 @@ const NewsLetterSection = (): JSX.Element => {
 						}}	 
 					/>
 				</form>
-				<Modal title={data['feedback.email_registered.title']} open={openModal}>
+				<Modal title={data['feedback.email_registered.title']} open={openModal} setOpen={setOpenModal}>
 					{data['feedback.email_registered.message']}
 				</Modal>
 			</div>

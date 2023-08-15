@@ -37,6 +37,7 @@ const ProductDescription = ( {productId}: ProductDescriptionProps): JSX.Element 
 			<Button onClick={() => setOpenModal(true)}>{data['controls.button.moredetails.label']}</Button>
 			<Modal 
 				open={openModal}
+				setOpen={setOpenModal}
 				title={data['controls.modal.products.title']}
 				className='Modal--border'
 			>
