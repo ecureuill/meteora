@@ -18,6 +18,7 @@ const NewsLetterSection = (): JSX.Element => {
 						outlined='none'
 						type='email'
 						placeholder='Digite seu email'
+						required={true}
 					/>
 				</form>
 				<Modal title={data['feedback.email_registered.title']} open={openModal} setOpen={setOpenModal}>
